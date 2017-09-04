@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.esri.geometry:esri-geometry-api:1.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esri.geometry/esri-geometry-api/1.2.1/239591428ff10e829b77ea03a9984bcb49786aaf/esri-geometry-api-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esri.geometry/esri-geometry-api/1.2.1/48859697297e3b8ce7d3d6c865de66468623b12b/esri-geometry-api-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

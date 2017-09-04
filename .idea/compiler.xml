@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="esri-geometry-api_main" target="1.8" />
+      <module name="esri-geometry-api_test" target="1.8" />
+      <module name="examples_main" target="1.8" />
+      <module name="examples_test" target="1.8" />
+      <module name="geometry-_main" target="1.8" />
+      <module name="geometry-_test" target="1.8" />
+      <module name="geometry-api-java_main" target="1.8" />
+      <module name="geometry-api-java_test" target="1.8" />
+      <module name="geometry-service_main" target="1.8" />
+      <module name="geometry-service_test" target="1.8" />
+      <module name="geometry_main" target="1.8" />
+      <module name="geometry_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
