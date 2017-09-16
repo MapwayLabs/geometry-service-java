@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="examples.iws" />
@@ -102,35 +103,39 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeometryOperatorsGrpc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/fogmodel/service/geometry/GeometryOperatorsGrpc.java">
+      <file leaf-file-name="build.gradle.orig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle.orig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeometryOperatorsServerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java">
+      <file leaf-file-name="geometry-operators-client.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/install/geometry-service/bin/geometry-operators-client.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-              <folding>
-                <element signature="e#11190#11200#0" expanded="true" />
-                <element signature="method#listFeatures#0;class#GeometryOperatorsServerTest#0" expanded="false" />
-                <element signature="e#13927#13966#0" expanded="true" />
-                <element signature="method#recordRoute#0;class#GeometryOperatorsServerTest#0" expanded="false" />
-                <element signature="method#routeChat#0;class#GeometryOperatorsServerTest#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geometry-operators-server.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/install/geometry-service/bin/geometry-operators-server.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-279">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,22 +163,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientCalls.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.2.0/31f3bf380f962b3affc1f258ac98fd4d1e39db0/grpc-stub-1.2.0-sources.jar!/io/grpc/stub/ClientCalls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="742">
-                <caret line="148" column="62" lean-forward="false" selection-start-line="148" selection-start-column="62" selection-end-line="148" selection-end-column="62" />
+              <first_editor relative-caret-position="602">
+                <caret line="180" column="96" lean-forward="false" selection-start-line="180" selection-start-column="96" selection-end-line="180" selection-end-column="96" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -184,8 +179,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="103" column="93" lean-forward="false" selection-start-line="103" selection-start-column="93" selection-end-line="103" selection-end-column="93" />
+            <state relative-caret-position="185">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -223,7 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__encodeGeometry</find>
       <find>ServiceGeometry</find>
       <find>blockingStub</find>
       <find>$JAVACMD</find>
@@ -252,6 +246,7 @@
       <find>getFeature</find>
       <find>DEFAULT_JVM_OPTS</find>
       <find>JAVA_OPTS</find>
+      <find>D</find>
       <find>applicationDefaultJvmArgs</find>
     </findStrings>
     <replaceStrings>
@@ -524,8 +519,8 @@
       <map>
         <entry key="$PROJECT_DIR$/../JMapProjLib" value="1478219626000" />
         <entry key="$PROJECT_DIR$/../geometry-api-java/build.gradle" value="44447521" />
-        <entry key="$PROJECT_DIR$" value="3000905391000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3175287731" />
+        <entry key="$PROJECT_DIR$" value="3000907764000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1261465552" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2512514726" />
         <entry key="$USER_HOME$/dlade/JMapProjLib" value="1478216927000" />
         <entry key="$USER_HOME$/google/grpc-java" value="29833374840000" />
@@ -751,9 +746,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java" />
         <option value="$PROJECT_DIR$/geometry-client-python/geometry_client/sample.py" />
         <option value="$PROJECT_DIR$/geometry-client-python/Dockerfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/geometry-client-python/.dockerignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsClientTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
@@ -1907,7 +1902,7 @@
       <workItem from="1503424439408" duration="4176000" />
       <workItem from="1504710025739" duration="8133000" />
       <workItem from="1504909978866" duration="23916000" />
-      <workItem from="1505513632824" duration="2952000" />
+      <workItem from="1505513632824" duration="4673000" />
     </task>
     <servers />
   </component>
@@ -1944,7 +1939,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208993000" />
+    <option name="totallyTimeSpent" value="210714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -2174,27 +2169,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorProjectCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/Projecter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleGeometryCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToWkt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -2524,17 +2498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="742">
-            <caret line="148" column="62" lean-forward="false" selection-start-line="148" selection-start-column="62" selection-end-line="148" selection-end-column="62" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geometry-client-python/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2551,14 +2514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="103" column="93" lean-forward="false" selection-start-line="103" selection-start-column="93" selection-end-line="103" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/distributions/geometry-service/bin/geometry-operators-server">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -2567,10 +2522,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/install/geometry-service/bin/geometry-operators-client.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="602">
+            <caret line="180" column="96" lean-forward="false" selection-start-line="180" selection-start-column="96" selection-end-line="180" selection-end-column="96" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/install/geometry-service/bin/geometry-operators-server.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
