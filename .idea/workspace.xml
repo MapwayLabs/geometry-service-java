@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/com/fogmodel/service/geometry/route_guide_db.json" afterPath="$PROJECT_DIR$/src/main/resources/com/epl/service/geometry/route_guide_db.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" afterPath="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,13 +79,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java">
+      <file leaf-file-name="geometry_operators.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="436" column="49" lean-forward="false" selection-start-line="436" selection-start-column="49" selection-end-line="436" selection-end-column="49" />
+            <state relative-caret-position="313">
+              <caret line="175" column="42" lean-forward="false" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
               <folding>
-                <element signature="e#0#25441#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="84" column="74" lean-forward="true" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#25436#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#parseFeatures#0;class#GeometryOperatorsUtil#0" expanded="false" />
                 <element signature="method#cursorFromRequest#0;class#GeometryOperatorsUtil#0" expanded="false" />
                 <element signature="method#__extractSpatialReference#0;class#GeometryOperatorsUtil#0" expanded="false" />
@@ -92,8 +109,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2610">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#17343#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1987#2003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ServiceGeometry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/ServiceGeometry.java">
+        <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/ServiceGeometry.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="947" column="0" lean-forward="false" selection-start-line="947" selection-start-column="0" selection-end-line="947" selection-end-column="0" />
@@ -151,12 +182,12 @@
         </entry>
       </file>
       <file leaf-file-name="GeometryOperatorsServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
-                <element signature="e#0#13077#0" expanded="true" />
+                <element signature="e#0#12783#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#getFeature#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
                 <element signature="method#getFeature#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
@@ -166,34 +197,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Polyline.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/esri-geometry-api-1.2.1.jar!/com/esri/core/geometry/Polyline.class">
+      <file leaf-file-name="GeometryOperatorsServerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="-122">
+              <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
               <folding>
-                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#0#19920#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#listFeatures#0;class#GeometryOperatorsServerTest#0" expanded="false" />
+                <element signature="method#recordRoute#0;class#GeometryOperatorsServerTest#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleGeometryCursor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/esri-geometry-api-1.2.1.jar!/com/esri/core/geometry/SimpleGeometryCursor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperatorExportToWkt.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/esri-geometry-api-1.2.1.jar!/com/esri/core/geometry/OperatorExportToWkt.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -210,13 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>JAVA_OPTS</find>
-      <find>D</find>
-      <find>applicationDefaultJvmArgs</find>
-      <find>proj</find>
-      <find>GeometryOperatorsUtil</find>
-      <find>grpcVersion</find>
-      <find>set</find>
       <find>setSp</find>
       <find>setRe</find>
       <find>recordRoute_wrongResponse</find>
@@ -240,6 +247,13 @@
       <find>serviceGeometryBuilder.setGeometry</find>
       <find>serviceGeometry.getGeometryString()</find>
       <find>getWKTGeometryFromWKB</find>
+      <find>setGeometryB</find>
+      <find>Buffer</find>
+      <find>encodingType</find>
+      <find>getResultsEncodingType</find>
+      <find>GeometryEncodingType</find>
+      <find>results_encoding_type</find>
+      <find>setGeometry</find>
     </findStrings>
     <replaceStrings>
       <replace>com.fogmodel.service.geometry</replace>
@@ -800,10 +814,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java.orig" />
         <option value="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
         <option value="$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
       </list>
     </option>
   </component>
@@ -889,78 +906,6 @@
             <path>
               <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -982,6 +927,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1003,14 +957,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1105,8 +1051,8 @@
       <module name="geometry-service_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fogmodel.service.geometry" />
-      <option name="MAIN_CLASS_NAME" value="com.fogmodel.service.geometry.GeometryOperatorsServerTest" />
+      <option name="PACKAGE_NAME" value="com.epl.service.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Djava.library.path=/usr/local/lib/" />
@@ -1790,10 +1736,10 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Debug Java Geometry Service" />
       <item index="1" class="java.lang.String" itemvalue="Application.Debug Geometry Operator Client" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.GeometryOperatorsServerTest.testProjection" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in geometry-service_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest" />
-      <item index="5" class="java.lang.String" itemvalue="Gradle.geometry-service-java [build]" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.geometry-service-java [:generateProto]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.geometry-service-java [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.geometry-service-java [:generateProto]" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All in geometry-service_test" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1867,29 +1813,11 @@
       <workItem from="1510886285287" duration="2969000" />
       <workItem from="1510889331225" duration="3171000" />
       <workItem from="1510896195414" duration="772000" />
-      <workItem from="1511983687081" duration="19783000" />
+      <workItem from="1511983687081" duration="24025000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.29 at 20h 00m 04s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 01h 41m 58s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 09h 38m 59s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 10h 34m 50s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 10h 35m 34s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 10h 40m 49s.xml">
-      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 10h 42m 16s.xml">
       <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
     </history-entry>
@@ -1902,9 +1830,27 @@
     <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 10h 49m 01s.xml">
       <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 09m 30s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 09m 45s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 10m 20s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 16m 42s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 17m 28s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeometryOperatorsServerTest - 2017.11.30 at 13h 17m 57s.xml">
+      <configuration name="GeometryOperatorsServerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246372000" />
+    <option name="totallyTimeSpent" value="250614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1398" y="100" width="2170" height="1282" extended-state="0" />
@@ -1925,6 +1871,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25093985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285594" sideWeight="0.48931468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2826399" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1943,7 +1890,6 @@
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.48931468" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2005,121 +1951,121 @@
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
           <line>517</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
           <line>513</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>172</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>169</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java</url>
-          <line>121</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java</url>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>280</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>277</line>
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>298</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>295</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>278</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>275</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>217</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>214</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>216</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>213</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>215</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>212</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java</url>
-          <line>137</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>136</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java</url>
-          <line>143</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>142</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java</url>
-          <line>131</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>130</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java</url>
-          <line>101</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java</url>
-          <line>129</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>128</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java</url>
-          <line>136</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
+          <line>133</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java</url>
-          <line>155</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java</url>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java</url>
-          <line>156</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java</url>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
           <line>111</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
           <line>436</line>
           <properties />
           <option name="timeStamp" value="77" />
@@ -2149,7 +2095,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/fogmodel/service/geometry/route_guide_db.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/epl/service/geometry/route_guide_db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2170,12 +2116,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/OperatorResult.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13080">
           <caret line="909" column="34" lean-forward="false" selection-start-line="909" selection-start-column="19" selection-end-line="909" selection-end-column="34" />
           <folding>
-            <element signature="e#0#32193#0" expanded="false" />
+            <element signature="e#0#30102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2228,7 +2174,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java.orig">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java.orig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
@@ -2255,7 +2201,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/GeometryEncodingType.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/GeometryEncodingType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -2271,12 +2217,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
-            <element signature="e#0#20671#0" expanded="false" />
+            <element signature="e#0#20594#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2339,27 +2285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="178" column="112" lean-forward="false" selection-start-line="178" selection-start-column="112" selection-end-line="178" selection-end-column="112" />
-          <folding>
-            <element signature="e#0#17386#0" expanded="true" />
-            <element signature="e#2030#2046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1252">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.7.0/a010bff7f7b404ec7cd4aeb07bbaa89d8ffcaacb/grpc-stub-1.7.0-sources.jar!/io/grpc/stub/AbstractStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -2404,7 +2329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/OperatorRequest.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
@@ -2412,7 +2337,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/fogmodel/service/geometry/GeometryOperatorsGrpc.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/epl/service/geometry/GeometryOperatorsGrpc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="361" column="0" lean-forward="false" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
@@ -2449,19 +2374,6 @@
         <state relative-caret-position="495">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fogmodel/service/geometry/GeometryOperatorsServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22224#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#listFeatures#0;class#GeometryOperatorsServerTest#0" expanded="false" />
-            <element signature="method#recordRoute#0;class#GeometryOperatorsServerTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2510,7 +2422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/ServiceGeometry.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/ServiceGeometry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="947" column="0" lean-forward="false" selection-start-line="947" selection-start-column="0" selection-end-line="947" selection-end-column="0" />
@@ -2550,12 +2462,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state relative-caret-position="213">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
-            <element signature="e#0#13077#0" expanded="true" />
+            <element signature="e#0#12783#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#getFeature#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
             <element signature="method#getFeature#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
@@ -2564,17 +2476,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="436" column="49" lean-forward="false" selection-start-line="436" selection-start-column="49" selection-end-line="436" selection-end-column="49" />
+        <state relative-caret-position="2610">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25441#0" expanded="true" />
+            <element signature="e#0#17343#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1987#2003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="175" column="42" lean-forward="false" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="84" column="74" lean-forward="true" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#25436#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="method#parseFeatures#0;class#GeometryOperatorsUtil#0" expanded="false" />
             <element signature="method#cursorFromRequest#0;class#GeometryOperatorsUtil#0" expanded="false" />
             <element signature="method#__extractSpatialReference#0;class#GeometryOperatorsUtil#0" expanded="false" />
             <element signature="method#__extractSpatialReference#1;class#GeometryOperatorsUtil#0" expanded="false" />
             <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19920#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#listFeatures#0;class#GeometryOperatorsServerTest#0" expanded="false" />
+            <element signature="method#recordRoute#0;class#GeometryOperatorsServerTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
