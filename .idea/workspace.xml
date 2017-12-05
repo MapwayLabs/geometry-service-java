@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestUnion.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestUnion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleGeometryCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleGeometryCursor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
@@ -107,14 +104,14 @@
                 <element signature="method#recordRoute#0;class#GeometryOperatorsClient#0" expanded="false" />
                 <element signature="class#7436:8434" expanded="false" />
                 <element signature="method#routeChat#0;class#GeometryOperatorsClient#0" expanded="false" />
-                <marker date="1512506109000" expanded="false" signature="13551:13562" ph=" { " />
-                <marker date="1512506109000" expanded="false" signature="13598:13604" ph=" }" />
-                <marker date="1512506109000" expanded="false" signature="13660:13671" ph=" { " />
-                <marker date="1512506109000" expanded="false" signature="13710:13716" ph=" }" />
-                <marker date="1512506109000" expanded="false" signature="14117:14128" ph=" { " />
-                <marker date="1512506109000" expanded="false" signature="14149:14155" ph=" }" />
-                <marker date="1512506109000" expanded="false" signature="14602:14613" ph=" { " />
-                <marker date="1512506109000" expanded="false" signature="14642:14648" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="13551:13562" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="13598:13604" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="13660:13671" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="13710:13716" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="14117:14128" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="14149:14155" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="14602:14613" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="14642:14648" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -133,13 +130,13 @@
                 <element signature="e#3444#3445#0" expanded="true" />
                 <element signature="e#4668#4669#0" expanded="true" />
                 <element signature="e#4716#4717#0" expanded="true" />
-                <marker date="1512506147000" expanded="false" signature="4569:4600" ph="&lt;~&gt;" />
-                <marker date="1512506147000" expanded="false" signature="4727:5103" ph="/**...*/" />
-                <marker date="1512506147000" expanded="false" signature="8516:8539" ph=" { " />
-                <marker date="1512506147000" expanded="false" signature="8590:8608" ph=" }" />
-                <marker date="1512506147000" expanded="false" signature="10217:10240" ph=" { " />
-                <marker date="1512506147000" expanded="false" signature="10289:10307" ph=" }" />
-                <marker date="1512506147000" expanded="false" signature="10430:10448" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="4569:4600" ph="&lt;~&gt;" />
+                <marker date="1512506234000" expanded="false" signature="4727:5103" ph="/**...*/" />
+                <marker date="1512506234000" expanded="false" signature="8516:8539" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="8590:8608" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="10217:10240" ph=" { " />
+                <marker date="1512506234000" expanded="false" signature="10289:10307" ph=" }" />
+                <marker date="1512506234000" expanded="false" signature="10430:10448" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -197,7 +194,7 @@
         <entry file="file://$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1856,7 +1853,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291969000" />
+    <option name="totallyTimeSpent" value="292030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -1870,11 +1867,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27534685" sideWeight="0.3460452" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43350384" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43350384" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2084399" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2826399" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2360,7 +2357,7 @@
     <entry file="file://$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2385,14 +2382,14 @@
             <element signature="method#recordRoute#0;class#GeometryOperatorsClient#0" expanded="false" />
             <element signature="class#7436:8434" expanded="false" />
             <element signature="method#routeChat#0;class#GeometryOperatorsClient#0" expanded="false" />
-            <marker date="1512506109000" expanded="false" signature="13551:13562" ph=" { " />
-            <marker date="1512506109000" expanded="false" signature="13598:13604" ph=" }" />
-            <marker date="1512506109000" expanded="false" signature="13660:13671" ph=" { " />
-            <marker date="1512506109000" expanded="false" signature="13710:13716" ph=" }" />
-            <marker date="1512506109000" expanded="false" signature="14117:14128" ph=" { " />
-            <marker date="1512506109000" expanded="false" signature="14149:14155" ph=" }" />
-            <marker date="1512506109000" expanded="false" signature="14602:14613" ph=" { " />
-            <marker date="1512506109000" expanded="false" signature="14642:14648" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="13551:13562" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="13598:13604" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="13660:13671" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="13710:13716" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="14117:14128" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="14149:14155" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="14602:14613" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="14642:14648" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2424,13 +2421,13 @@
             <element signature="e#3444#3445#0" expanded="true" />
             <element signature="e#4668#4669#0" expanded="true" />
             <element signature="e#4716#4717#0" expanded="true" />
-            <marker date="1512506147000" expanded="false" signature="4569:4600" ph="&lt;~&gt;" />
-            <marker date="1512506147000" expanded="false" signature="4727:5103" ph="/**...*/" />
-            <marker date="1512506147000" expanded="false" signature="8516:8539" ph=" { " />
-            <marker date="1512506147000" expanded="false" signature="8590:8608" ph=" }" />
-            <marker date="1512506147000" expanded="false" signature="10217:10240" ph=" { " />
-            <marker date="1512506147000" expanded="false" signature="10289:10307" ph=" }" />
-            <marker date="1512506147000" expanded="false" signature="10430:10448" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="4569:4600" ph="&lt;~&gt;" />
+            <marker date="1512506234000" expanded="false" signature="4727:5103" ph="/**...*/" />
+            <marker date="1512506234000" expanded="false" signature="8516:8539" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="8590:8608" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="10217:10240" ph=" { " />
+            <marker date="1512506234000" expanded="false" signature="10289:10307" ph=" }" />
+            <marker date="1512506234000" expanded="false" signature="10430:10448" ph=" }" />
           </folding>
         </state>
       </provider>
