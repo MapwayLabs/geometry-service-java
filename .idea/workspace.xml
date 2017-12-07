@@ -80,11 +80,10 @@
       <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="420" column="110" lean-forward="false" selection-start-line="420" selection-start-column="110" selection-end-line="420" selection-end-column="110" />
+            <state relative-caret-position="187">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
                 <element signature="e#0#27339#0" expanded="true" />
-                <element signature="imports" expanded="true" />
                 <element signature="method#__decodeGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
                 <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
                 <element signature="method#__extractGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
@@ -117,14 +116,15 @@
       <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="321" column="12" lean-forward="false" selection-start-line="321" selection-start-column="12" selection-end-line="321" selection-end-column="12" />
+            <state relative-caret-position="253">
+              <caret line="248" column="12" lean-forward="false" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#shapefile#0;class#GeometryOperatorsClient#0" expanded="false" />
-                <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
-                <element signature="e#15759#15760#0" expanded="true" />
-                <element signature="e#15810#15811#0" expanded="true" />
+                <element signature="method#GeometryOperatorsClient#2;class#GeometryOperatorsClient#0" expanded="false" />
+                <element signature="method#shutdown#0;class#GeometryOperatorsClient#0" expanded="false" />
+                <element signature="e#11965#11966#0" expanded="true" />
+                <element signature="e#12016#12017#0" expanded="true" />
+                <element signature="class#TestHelper#0;class#GeometryOperatorsClient#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -166,8 +166,8 @@
       <file leaf-file-name="GeometryOperatorsServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="22" />
+            <state relative-caret-position="-26">
+              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9150#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -969,93 +969,6 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1946,7 +1859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349724000" />
+    <option name="totallyTimeSpent" value="351673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="877" extended-state="6" />
@@ -1961,7 +1874,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47826087" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5051151" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.59144545" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2176,7 +2089,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>339</line>
+          <line>258</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
@@ -2193,24 +2106,6 @@
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>206</line>
-          <properties />
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>212</line>
-          <properties />
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>218</line>
-          <properties />
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java</url>
           <line>176</line>
           <properties />
@@ -2224,7 +2119,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>325</line>
+          <line>252</line>
           <properties />
           <option name="timeStamp" value="155" />
         </line-breakpoint>
@@ -2242,19 +2137,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>127</line>
+          <line>133</line>
           <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>174</line>
+          <line>180</line>
           <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>179</line>
+          <line>185</line>
           <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
@@ -2266,7 +2161,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>317</line>
+          <line>244</line>
           <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
@@ -2727,10 +2622,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#27339#0" expanded="true" />
+            <element signature="method#__decodeGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
+            <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
+            <element signature="method#__extractGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="22" />
+        <state relative-caret-position="-26">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="e#0#9150#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -2742,30 +2650,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="420" column="110" lean-forward="false" selection-start-line="420" selection-start-column="110" selection-end-line="420" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#27339#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#__decodeGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
-            <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
-            <element signature="method#__extractGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="321" column="12" lean-forward="false" selection-start-line="321" selection-start-column="12" selection-end-line="321" selection-end-column="12" />
+        <state relative-caret-position="253">
+          <caret line="248" column="12" lean-forward="false" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#shapefile#0;class#GeometryOperatorsClient#0" expanded="false" />
-            <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
-            <element signature="e#15759#15760#0" expanded="true" />
-            <element signature="e#15810#15811#0" expanded="true" />
+            <element signature="method#GeometryOperatorsClient#2;class#GeometryOperatorsClient#0" expanded="false" />
+            <element signature="method#shutdown#0;class#GeometryOperatorsClient#0" expanded="false" />
+            <element signature="e#11965#11966#0" expanded="true" />
+            <element signature="e#12016#12017#0" expanded="true" />
+            <element signature="class#TestHelper#0;class#GeometryOperatorsClient#0" expanded="false" />
           </folding>
         </state>
       </provider>
