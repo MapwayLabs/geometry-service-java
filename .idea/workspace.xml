@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/kubernetes-lb/geometry-server.yaml" afterPath="$PROJECT_DIR$/examples/kubernetes-lb/geometry-server.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
     </list>
     <ignored path="examples.iws" />
@@ -82,16 +81,16 @@
       <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="95" column="50" lean-forward="false" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+            <state relative-caret-position="283">
+              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#shutdown#0;class#GeometryOperatorsClient#0" expanded="false" />
-                <element signature="method#onNext#0;class#4920:8822" expanded="false" />
-                <element signature="method#onError#0;class#4920:8822" expanded="false" />
-                <element signature="method#onCompleted#0;class#4920:8822" expanded="false" />
-                <element signature="e#11965#11966#0" expanded="true" />
-                <element signature="e#12016#12017#0" expanded="true" />
+                <element signature="method#onNext#0;class#4992:8894" expanded="false" />
+                <element signature="method#onError#0;class#4992:8894" expanded="false" />
+                <element signature="method#onCompleted#0;class#4992:8894" expanded="false" />
+                <element signature="e#12037#12038#0" expanded="true" />
+                <element signature="e#12088#12089#0" expanded="true" />
                 <element signature="class#TestHelper#0;class#GeometryOperatorsClient#0" expanded="false" />
               </folding>
             </state>
@@ -1813,7 +1812,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357230000" />
+    <option name="totallyTimeSpent" value="357902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="877" extended-state="6" />
@@ -2043,7 +2042,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>258</line>
+          <line>260</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
@@ -2073,7 +2072,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>252</line>
+          <line>254</line>
           <properties />
           <option name="timeStamp" value="155" />
         </line-breakpoint>
@@ -2091,19 +2090,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>133</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>180</line>
+          <line>182</line>
           <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>185</line>
+          <line>187</line>
           <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
@@ -2115,7 +2114,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>244</line>
+          <line>246</line>
           <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
@@ -2127,13 +2126,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>79</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>70</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="181" />
         </line-breakpoint>
@@ -2642,16 +2641,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="95" column="50" lean-forward="false" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+        <state relative-caret-position="283">
+          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#shutdown#0;class#GeometryOperatorsClient#0" expanded="false" />
-            <element signature="method#onNext#0;class#4920:8822" expanded="false" />
-            <element signature="method#onError#0;class#4920:8822" expanded="false" />
-            <element signature="method#onCompleted#0;class#4920:8822" expanded="false" />
-            <element signature="e#11965#11966#0" expanded="true" />
-            <element signature="e#12016#12017#0" expanded="true" />
+            <element signature="method#onNext#0;class#4992:8894" expanded="false" />
+            <element signature="method#onError#0;class#4992:8894" expanded="false" />
+            <element signature="method#onCompleted#0;class#4992:8894" expanded="false" />
+            <element signature="e#12037#12038#0" expanded="true" />
+            <element signature="e#12088#12089#0" expanded="true" />
             <element signature="class#TestHelper#0;class#GeometryOperatorsClient#0" expanded="false" />
           </folding>
         </state>
