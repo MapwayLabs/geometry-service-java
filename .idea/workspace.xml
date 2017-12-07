@@ -4,13 +4,7 @@
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" afterPath="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +80,7 @@
       <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-644">
+            <state relative-caret-position="-119">
               <caret line="420" column="110" lean-forward="false" selection-start-line="420" selection-start-column="110" selection-end-line="420" selection-end-column="110" />
               <folding>
                 <element signature="e#0#27339#0" expanded="true" />
@@ -123,14 +117,14 @@
       <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="321" column="12" lean-forward="false" selection-start-line="321" selection-start-column="12" selection-end-line="321" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#shapefile#0;class#GeometryOperatorsClient#0" expanded="false" />
                 <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
-                <element signature="e#15760#15761#0" expanded="true" />
-                <element signature="e#15811#15812#0" expanded="true" />
+                <element signature="e#15759#15760#0" expanded="true" />
+                <element signature="e#15810#15811#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,15 +166,14 @@
       <file leaf-file-name="GeometryOperatorsServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state relative-caret-position="111">
+              <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="22" />
               <folding>
                 <element signature="e#0#9150#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#1554#1570#0" expanded="true" />
                 <element signature="method#start#0;class#GeometryOperatorsServer#0" expanded="false" />
                 <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" expanded="false" />
-                <element signature="method#executeOperation#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
                 <element signature="method#__executeOperator#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
               </folding>
             </state>
@@ -235,7 +228,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>numPoints</find>
       <find>getFeature</find>
       <find>getBuffered</find>
       <find>connect(</find>
@@ -265,6 +257,7 @@
       <find>RecordRoute</find>
       <find>Feature</find>
       <find>main(</find>
+      <find>logger</find>
     </findStrings>
     <replaceStrings>
       <replace>com.fogmodel.service.geometry</replace>
@@ -1953,10 +1946,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348467000" />
+    <option name="totallyTimeSpent" value="349724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27534685" sideWeight="0.3460452" order="13" side_tool="true" content_ui="tabs" />
@@ -1967,7 +1961,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40920717" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47826087" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.59144545" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2270,8 +2264,14 @@
           <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>317</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="176" />
+      <option name="time" value="177" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2651,20 +2651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="420" column="110" lean-forward="false" selection-start-line="420" selection-start-column="110" selection-end-line="420" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#27339#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#__decodeGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
-            <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
-            <element signature="method#__extractGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="985">
@@ -2743,30 +2729,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="111">
+          <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="22" />
           <folding>
             <element signature="e#0#9150#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#1554#1570#0" expanded="true" />
             <element signature="method#start#0;class#GeometryOperatorsServer#0" expanded="false" />
             <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" expanded="false" />
-            <element signature="method#executeOperation#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
             <element signature="method#__executeOperator#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="420" column="110" lean-forward="false" selection-start-line="420" selection-start-column="110" selection-end-line="420" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#27339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#__decodeGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
+            <element signature="method#__extractEnvelope2D#0;class#GeometryOperatorsUtil#0" expanded="false" />
+            <element signature="method#__extractGeometry#0;class#GeometryOperatorsUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="321" column="12" lean-forward="false" selection-start-line="321" selection-start-column="12" selection-end-line="321" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#shapefile#0;class#GeometryOperatorsClient#0" expanded="false" />
             <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
-            <element signature="e#15760#15761#0" expanded="true" />
-            <element signature="e#15811#15812#0" expanded="true" />
+            <element signature="e#15759#15760#0" expanded="true" />
+            <element signature="e#15810#15811#0" expanded="true" />
           </folding>
         </state>
       </provider>
