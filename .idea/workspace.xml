@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/Bufferer.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/Bufferer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ByteBufferCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ByteBufferCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeodesicBufferer.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeodesicBufferer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryCursorAppend.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryCursorAppend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryEngine.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ListeningGeometryCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ListeningGeometryCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBoundaryLocalCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBoundaryLocalCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBufferCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBufferCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorClipCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorClipCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorConvexHullCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorConvexHullCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorCutCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorCutCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorDensifyByLengthCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorDensifyByLengthCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorDifferenceCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorDifferenceCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToESRIShapeCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToESRIShapeCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToJsonCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToJsonCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToWkbCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToWkbCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToWktCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorExportToWktCursor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeneralizeByAreaCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeneralizeByAreaCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeneralizeCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeneralizeCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeodesicBufferCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeodesicBufferCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeodeticDensifyCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorGeodeticDensifyCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromESRIShapeCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromESRIShapeCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromWkbCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromWkbCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromWktCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorImportFromWktCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorIntersectionCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorIntersectionCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorOffsetCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorOffsetCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorProjectCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorProjectCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorRandomPointsCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorRandomPointsCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSimplifyCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSimplifyCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSimplifyCursorOGC.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSimplifyCursorOGC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSymmetricDifferenceCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorSymmetricDifferenceCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorUnionCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorUnionCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorUnionLocal.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorUnionLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleByteBufferCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleByteBufferCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleGeometryCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleGeometryCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleStringCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/SimpleStringCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/StringCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/StringCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ogc/OGCConcreteGeometryCollection.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/ogc/OGCConcreteGeometryCollection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
     </list>
     <ignored path="examples.iws" />
@@ -121,10 +80,11 @@
       <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="237">
+              <caret line="319" column="43" lean-forward="false" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
               <folding>
-                <element signature="e#0#26485#0" expanded="true" />
+                <element signature="e#0#26529#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#SpatialReferenceGroup#0;class#SpatialReferenceGroup#0" expanded="false" />
                 <element signature="e#3913#3914#0" expanded="true" />
                 <element signature="e#3966#3967#0" expanded="true" />
@@ -156,8 +116,8 @@
       <file leaf-file-name="SimpleByteBufferCursor.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleByteBufferCursor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1807,7 +1767,7 @@
       <workItem from="1512759460553" duration="9821000" />
       <workItem from="1513023144837" duration="43244000" />
       <workItem from="1513195389451" duration="101000" />
-      <workItem from="1513195553053" duration="23011000" />
+      <workItem from="1513195553053" duration="24208000" />
     </task>
     <servers />
   </component>
@@ -1844,7 +1804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453330000" />
+    <option name="totallyTimeSpent" value="454527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1993" y="23" width="1559" height="1389" extended-state="0" />
@@ -1866,8 +1826,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41653788" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17928903" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41653788" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17928903" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19841793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.48931468" order="1" side_tool="false" content_ui="tabs" />
@@ -2147,19 +2107,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>477</line>
+          <line>478</line>
           <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>471</line>
+          <line>472</line>
           <properties />
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>468</line>
+          <line>469</line>
           <properties />
           <option name="timeStamp" value="236" />
         </line-breakpoint>
@@ -2177,13 +2137,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>518</line>
+          <line>519</line>
           <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>508</line>
+          <line>509</line>
           <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
@@ -2207,7 +2167,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>543</line>
+          <line>544</line>
           <properties />
           <option name="timeStamp" value="283" />
         </line-breakpoint>
@@ -2628,8 +2588,8 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleByteBufferCursor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2644,10 +2604,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="237">
+          <caret line="319" column="43" lean-forward="false" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
           <folding>
-            <element signature="e#0#26485#0" expanded="true" />
+            <element signature="e#0#26529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="method#SpatialReferenceGroup#0;class#SpatialReferenceGroup#0" expanded="false" />
             <element signature="e#3913#3914#0" expanded="true" />
             <element signature="e#3966#3967#0" expanded="true" />
