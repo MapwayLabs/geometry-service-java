@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/EnclosingCircler.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/EnclosingCircler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeodesicBufferer.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeodesicBufferer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryEngine.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/GeometryEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorRandomPointsCursor.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorRandomPointsCursor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/RandomPointMaker.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/RandomPointMaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestGeneralize.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestGeneralize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestRandomPoints.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/test/java/com/esri/core/geometry/TestRandomPoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+      <change beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBuffer.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorBuffer.java" />
+      <change beforePath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorIntersection.java" afterPath="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorIntersection.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,107 +82,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnclosingCircler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/EnclosingCircler.class">
+      <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="103">
+              <caret line="218" column="27" lean-forward="true" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
+              <folding>
+                <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
+                <element signature="e#14677#14678#0" expanded="true" />
+                <element signature="e#14728#14729#0" expanded="true" />
+                <element signature="e#14786#14787#0" expanded="true" />
+                <element signature="e#14840#14841#0" expanded="true" />
+                <element signature="e#15005#15006#0" expanded="true" />
+                <element signature="e#15041#15042#0" expanded="true" />
+                <element signature="e#15490#15491#0" expanded="true" />
+                <element signature="e#15534#15535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+            <state relative-caret-position="127">
+              <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
               <folding>
-                <element signature="e#0#27077#0" expanded="true" />
+                <element signature="e#0#27791#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="method#SpatialReferenceGroup#0;class#SpatialReferenceGroup#0" expanded="false" />
+                <element signature="e#4497#4498#0" expanded="true" />
+                <element signature="e#4542#4543#0" expanded="true" />
+                <element signature="e#4700#4701#0" expanded="true" />
+                <element signature="e#4763#4764#0" expanded="true" />
+                <element signature="e#4821#4822#0" expanded="true" />
+                <element signature="e#4881#4882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeometryOperatorsServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
+      <file leaf-file-name="ClientCalls.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.7.0/a010bff7f7b404ec7cd4aeb07bbaa89d8ffcaacb/grpc-stub-1.7.0-sources.jar!/io/grpc/stub/ClientCalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-              <folding>
-                <element signature="method#start#0;class#GeometryOperatorsServer#0" expanded="false" />
-                <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" expanded="false" />
-                <element signature="method#streamOperations#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geometry_operators.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="393" column="0" lean-forward="false" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiVertexGeometryImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/MultiVertexGeometryImpl.class">
+      <file leaf-file-name="ForwardingClientCallListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.7.0/11ef0857e502a691bf12dae35fc1577a1efb8293/grpc-core-1.7.0-sources.jar!/io/grpc/ForwardingClientCallListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShapefileByteReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="e#5639#5640#0" expanded="true" />
+                <element signature="e#5685#5686#0" expanded="true" />
+                <element signature="e#5716#5717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MixedEndianDataInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/MixedEndianDataInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-202">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point2D.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Point2D.class">
+      <file leaf-file-name="DataInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/io/DataInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceGeometry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/ServiceGeometry.java">
+      <file leaf-file-name="SelectorImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="505" column="0" lean-forward="false" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
-              <folding>
-                <element signature="e#18275#18276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="339">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazyStringArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/LazyStringArrayList.java">
+      <file leaf-file-name="SelectedSelectionKeySetSelector.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.16.Final/4f98982516fa71c45187aa56640a9a8f0c78de4f/netty-transport-4.1.16.Final-sources.jar!/io/netty/channel/nio/SelectedSelectionKeySetSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#5000#5001#0" expanded="true" />
-                <element signature="e#5028#5029#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractProtobufList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractProtobufList.java">
+      <file leaf-file-name="NioEventLoop.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.16.Final/4f98982516fa71c45187aa56640a9a8f0c78de4f/netty-transport-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <element signature="e#2531#2532#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="752" column="0" lean-forward="false" selection-start-line="752" selection-start-column="0" selection-end-line="752" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,10 +222,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Generalize</find>
-      <find>SimplifyOGC</find>
-      <find>Simplify</find>
-      <find>ShapePreservingDensify</find>
       <find>GeodeticDensifyByLength</find>
       <find>GeodesicBuffer</find>
       <find>Difference</find>
@@ -216,7 +232,6 @@
       <find>Cut</find>
       <find>Clip</find>
       <find>Intersection</find>
-      <find>Buffer</find>
       <find>(:[\s]*\n)[\s]+break;</find>
       <find>nonCursorFromRequest</find>
       <find>__getLeftCursorFromRequest</find>
@@ -229,9 +244,14 @@
       <find>Offset</find>
       <find>Project</find>
       <find>__exportByteBufferCursor</find>
-      <find>StringIterable</find>
       <find>Random</find>
       <find>EnclosingCircle</find>
+      <find>StringIterable</find>
+      <find>next()</find>
+      <find>next()</find>
+      <find>max_vertices_in_full_circle</find>
+      <find>Buffer</find>
+      <find>logger</find>
     </findStrings>
     <replaceStrings>
       <replace>com.fogmodel.service.geometry</replace>
@@ -722,6 +742,11 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -767,16 +792,16 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/MixedEndianDataInputStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/BinaryStringIterable.java" />
         <option value="$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorBufferCursor.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
         <option value="$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/EnclosingCircler.class" />
+        <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
       </list>
     </option>
   </component>
@@ -788,7 +813,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1436" />
+    <option name="width" value="1364" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -823,10 +848,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -887,6 +912,27 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="geometry" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -924,32 +970,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Debug Java Geometry Service">
-    <configuration name="All in epl-geometry-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="epl-geometry-service_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+  <component name="RunManager" selected="Application.Debug Geometry Operator Client">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration name="Debug Geometry Operator Client" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsClient" />
       <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
-      <option name="PROGRAM_PARAMETERS" value="localhost $USER_HOME$/Downloads/Parcels/PARCELS.shp" />
+      <option name="PROGRAM_PARAMETERS" value="localhost $USER_HOME$/Downloads/wrs2_asc_desc/wrs2_asc_desc.shp" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -972,6 +1005,74 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="epl-geometry-service_main" />
       <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="All in epl-geometry-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="epl-geometry-service_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="GeometryOperatorsServerTest.testCrazyNesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1073,120 +1174,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="examples" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="examples" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="examples" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1219,50 +1206,6 @@
       <module name="examples" />
       <envs />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="examples" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="examples" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="LOCAL" value="false" />
       <deployment />
@@ -1273,6 +1216,31 @@
         </data>
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
+    </configuration>
+    <configuration name="testClient" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometryclientpython" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epl-geometry-service" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometryclientpython/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1301,17 +1269,11 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="examples" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -1458,6 +1420,25 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="examples" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -1575,11 +1556,67 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="examples" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="examples" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="examples" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="examples" />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
@@ -1620,6 +1657,25 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="examples" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1636,33 +1692,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="testClient" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometryclientpython" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="epl-geometry-service" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometryclientpython/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Python.testClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Debug Java Geometry Service" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Debug Geometry Operator Client" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in epl-geometry-service" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testUnion" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testProjection" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting2" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Application.Debug Java Geometry Service" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Debug Geometry Operator Client" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in epl-geometry-service" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testUnion" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testProjection" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting2" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1676,6 +1721,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1749,7 +1797,8 @@
       <workItem from="1513195389451" duration="101000" />
       <workItem from="1513195553053" duration="30948000" />
       <workItem from="1513560787346" duration="5194000" />
-      <workItem from="1513758448479" duration="2855000" />
+      <workItem from="1513758448479" duration="3506000" />
+      <workItem from="1513826679440" duration="9323000" />
     </task>
     <servers />
   </component>
@@ -1786,10 +1835,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469316000" />
+    <option name="totallyTimeSpent" value="479290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1436" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1364" height="877" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1799,22 +1848,22 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27534685" sideWeight="0.3460452" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41560102" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41560102" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2966752" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22166428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2826399" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49744245" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41560102" sideWeight="0.67784876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1824,6 +1873,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1975,7 +2025,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>310</line>
+          <line>319</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
@@ -1999,13 +2049,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>218</line>
+          <line>227</line>
           <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>223</line>
+          <line>232</line>
           <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
@@ -2014,18 +2064,6 @@
           <line>167</line>
           <properties />
           <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>291</line>
-          <properties />
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
@@ -2038,36 +2076,6 @@
           <line>49</line>
           <properties />
           <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>207</line>
-          <properties />
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java</url>
-          <line>149</line>
-          <properties />
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>205</line>
-          <properties />
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>303</line>
-          <properties />
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java</url>
@@ -2089,19 +2097,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>487</line>
+          <line>499</line>
           <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>481</line>
+          <line>493</line>
           <properties />
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>478</line>
+          <line>490</line>
           <properties />
           <option name="timeStamp" value="236" />
         </line-breakpoint>
@@ -2119,13 +2127,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>528</line>
+          <line>540</line>
           <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>518</line>
+          <line>530</line>
           <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
@@ -2143,12 +2151,84 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
-          <line>553</line>
+          <line>565</line>
           <properties />
           <option name="timeStamp" value="283" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorRandomPointsCursor.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/RandomPointMaker.class</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorRandomPointsCursor.class</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
+          <line>358</line>
+          <properties />
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java</url>
+          <line>350</line>
+          <properties />
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="288" />
+      <option name="time" value="321" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2156,233 +2236,31 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>inputStream.readInt()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Polygon) geometry).getPointCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Polygon) geom).getPointCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10890">
-          <caret line="755" column="0" lean-forward="false" selection-start-line="755" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/GeometryOperatorsProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="169" column="536" lean-forward="false" selection-start-line="169" selection-start-column="536" selection-end-line="169" selection-end-column="536" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorRequestOrBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorFactoryLocal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorOffset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="326" column="0" lean-forward="false" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/UnknownFieldSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/GeneratedMessageV3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/InternalUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorOffsetCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/ConstructOffset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorExportToWktLocal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorGeodeticDensifyCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/Internal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/docker-compose/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Dockerfile_client">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="86" column="70" lean-forward="false" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
-          <folding>
-            <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="414" column="0" lean-forward="false" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/ProjectionTransformation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1308" column="0" lean-forward="false" selection-start-line="1308" selection-start-column="0" selection-end-line="1308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="430" column="0" lean-forward="false" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/TopoGraph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="1375" column="0" lean-forward="false" selection-start-line="1375" selection-start-column="0" selection-end-line="1375" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/TopologicalOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="1406" column="0" lean-forward="false" selection-start-line="1406" selection-start-column="0" selection-end-line="1406" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/epl/service/geometry/GeometryOperatorsGrpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.7.0/11ef0857e502a691bf12dae35fc1577a1efb8293/grpc-core-1.7.0-sources.jar!/io/grpc/internal/ServerCallImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="270" column="0" lean-forward="false" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorBufferCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWktCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleStringCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2400,34 +2278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractMessageLite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26140#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#24943#24953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/BinaryStringIterable.java" />
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleByteBufferCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWkbCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2435,46 +2286,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/StringCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorExportToWktCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractProtobufList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#2531#2532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/LazyStringArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#5000#5001#0" expanded="true" />
-            <element signature="e#5028#5029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Point2D.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:225" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="397:404" ph="{}" />
+            <marker date="1513838274000" expanded="true" signature="445:492" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="527:538" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="560:566" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="623:634" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="659:665" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="713:760" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="803:862" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="905:916" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="962:968" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1018:1029" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1065:1071" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1127:1221" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1263:1274" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1320:1326" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1368:1623" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1660:1721" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1767:1834" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1871:1932" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1978:2045" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2072:2131" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2171:2232" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="2290:2301" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2342:2348" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="2415:2426" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2462:2468" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="2520:2605" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2672:2759" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2808:2875" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2909:2958" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2998:3123" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3157:3282" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3325:3550" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3580:3761" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="3789:3800" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="3852:3858" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="3889:3900" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="3941:3947" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="4008:4019" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4059:4065" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="4110:4121" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4164:4170" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="4212:4223" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4286:4292" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="4339:4350" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4393:4399" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="4454:4601" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4657:4805" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4843:4925" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4973:5027" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5066:5148" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5197:5251" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5272:5351" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="5373:5384" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="5446:5452" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="5482:5689" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="5718:5729" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="5755:5761" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="5824:6100" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="6162:6173" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="6204:6210" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="6275:6386" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="6416:6427" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="6470:6476" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="6503:6582" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="6610:6621" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="6683:6689" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="6720:7314" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7360:7769" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7844:9291" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9378:10718" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10794:14226" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="14340:15838" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15950:18186" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="18289:18664" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="18691:18702" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="18760:18766" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="18836:19488" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19523:19626" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19691:19851" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19718:19729" ph="{}" />
+            <marker date="1513838274000" expanded="false" signature="19781:19796" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="19835:19845" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2482,15 +2384,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="807:818" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="843:849" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="879:890" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="916:922" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="973:984" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1010:1016" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1084:1090" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1137:1148" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1186:1192" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1253:1387" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1428:1526" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1562:1708" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1747:1754" ph="{}" />
+            <marker date="1513838274000" expanded="true" signature="1808:2722" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2776:3707" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3745:3838" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3885:4188" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4235:4575" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4630:5008" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5047:5663" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5711:6196" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6275:6917" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6993:7073" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7159:7822" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7905:7983" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="8053:8295" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="8378:8968" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9052:9817" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9870:9968" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10021:10119" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10177:10276" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10334:10433" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10479:10568" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="10617:10628" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="10654:10660" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="10709:10720" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="10746:10752" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="10806:10817" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="10848:10854" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="10908:10919" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="10950:10956" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="11023:11306" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="11334:11908" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="11950:13433" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13477:13772" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13815:14055" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="14109:15376" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15440:15641" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15668:15825" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15869:16100" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="16162:17571" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="17619:17926" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="17989:18272" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="18317:19909" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19948:20183" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="20268:21013" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="21098:22093" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="22140:22482" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="22559:23400" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="23434:23445" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="23475:23481" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="23533:23544" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="23571:23577" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="23609:23710" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="23797:25055" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="25115:25229" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="25268:26216" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="26265:27178" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27226:27477" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27527:27775" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27825:28074" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="28133:29551" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="29782:29793" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="29826:29832" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="29866:30365" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="30404:30504" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2510,42 +2483,684 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/EnclosingCircler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="1155">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:287" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="821:1185" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1209:1848" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1891:2082" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2134:2226" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2262:2715" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2794:3347" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3445:4109" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4128:4521" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4240:4323" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4374:4515" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/StringCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractProtobufList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding>
+            <element signature="e#2531#2532#0" expanded="false" />
+            <element signature="e#2557#2558#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/Internal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/LazyStringArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <element signature="e#5028#5029#0" expanded="false" />
+            <element signature="e#8959#8960#0" expanded="false" />
+            <element signature="e#9010#9011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleStringCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorFactoryLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWkt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/AttributeStreamOfInt32.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/WktParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWktLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:211" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="311:318" ph="{}" />
+            <marker date="1513838274000" expanded="true" signature="443:530" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="642:821" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="929:2640" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2727:4301" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4406:7405" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7516:9764" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9847:11613" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="11691:12926" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13127:13613" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13817:14342" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="14477:15183" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15402:16273" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="16488:18839" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="18969:19829" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19981:20158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWktCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="true" signature="422:660" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="689:1025" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1055:1066" ph=" { " />
+            <marker date="1513838274000" expanded="true" signature="1140:1146" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1178:1189" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1209:1215" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SpatialReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:299" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="450:457" ph="{}" />
+            <marker date="1513838274000" expanded="true" signature="511:620" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="678:689" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="736:742" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="813:888" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="911:922" ph=" { " />
+            <marker date="1513838274000" expanded="true" signature="935:941" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1023:1099" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1177:1252" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1334:4120" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="4330:4341" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4369:4375" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="4477:4652" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4683:4801" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Polygon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:212" ph="..." />
+            <marker date="1513838274000" expanded="false" signature="353:364" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="402:408" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="450:461" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="547:558" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="600:606" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="637:648" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="657:663" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="690:701" ph=" { " />
+            <marker date="1513838274000" expanded="true" signature="721:727" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="842:848" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="898:909" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="954:960" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1002:1266" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1293:1304" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1334:1340" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1390:1401" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1428:1434" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1532:1628" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1741:1860" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1899:1910" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1950:1956" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1995:2006" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2036:2042" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="2072:2083" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2116:2122" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="2154:2235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Envelope2D.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:302" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="774:948" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1007:1107" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1132:1143" ph=" { " />
+            <marker date="1513838274000" expanded="true" signature="1159:1165" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1245:1360" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1401:1412" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1434:1440" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1490:1593" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1677:1818" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1891:2094" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2134:2245" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="2291:2302" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2369:2375" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="2433:2599" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2649:2997" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3026:3161" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3193:3388" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3419:3567" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3639:3922" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3966:4438" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4484:4751" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="4786:4797" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4820:4826" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="4861:4872" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="4895:4901" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="4943:5088" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5136:5414" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5448:5672" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5727:5877" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5931:6672" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6728:7469" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="7561:8272" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="8321:9022" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9066:9479" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="9529:10459" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="10517:11468" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="11497:11508" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="11574:11580" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="11611:11622" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="11697:11703" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="11764:12461" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="12521:13238" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13271:13349" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="13382:13460" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="13490:13501" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="13530:13536" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="13567:13578" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="13607:13613" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="13658:13822" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="13868:13879" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="13935:13941" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="13972:13983" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="14009:14015" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="14062:14169" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="14199:14577" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="14621:14632" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="14667:14673" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="14718:14729" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="14764:14770" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="14814:14825" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="14860:14866" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="14911:14922" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="14957:14963" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="14993:15004" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="15078:15084" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="15116:15127" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="15210:15216" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="15262:15371" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="15407:15658" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="15693:15704" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="15745:15751" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="15786:15797" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="15838:15844" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="15880:15891" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="15932:15938" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="15974:15985" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="16026:16032" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="16070:16081" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="16122:16128" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="16168:16179" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="16210:16216" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="16266:16358" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="16406:16534" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="16593:16681" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="16731:16742" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="16784:16790" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="16840:16964" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="17007:17473" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="17501:18072" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="18114:19210" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19253:19893" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="19929:20428" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="20475:20766" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="20816:24660" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="24691:24935" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="25045:26778" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="26868:27486" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27538:27644" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27680:27851" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="27920:28112" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="28158:28169" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="28211:28217" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="28259:28270" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="28311:28317" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="28367:28835" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="28923:29371" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="29424:30062" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="30108:30560" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="30611:30757" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="30808:30954" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="31028:31069" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="31164:31203" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="31270:31302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26140#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#24943#24953#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/RandomPointMaker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:191" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="3300:4165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="842" column="0" lean-forward="false" selection-start-line="842" selection-start-column="0" selection-end-line="842" selection-end-column="0" />
+          <folding>
+            <marker date="1513835032000" expanded="true" signature="127146:127200" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/GeometryCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="true" signature="264:271" ph="{}" />
+            <marker date="1513838274000" expanded="false" signature="378:389" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="401:407" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SpatialReferenceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:276" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="1167:1174" ph="{}" />
+            <marker date="1513838274000" expanded="false" signature="1198:1209" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1232:1238" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1262:1273" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1285:1291" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1315:1326" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1338:1344" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1368:1379" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1391:1397" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1421:1432" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1444:1450" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1479:1490" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1520:1526" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1554:1565" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1580:1586" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1614:1625" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1640:1646" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1697:1708" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1756:1762" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1803:2104" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2166:2654" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="2715:2726" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2745:2751" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="2780:2791" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2813:2819" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="2849:2860" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2880:2886" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="2907:3195" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3219:3507" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3569:3924" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="3988:4475" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4528:4657" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4739:4874" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="4914:5408" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5482:5843" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="5878:6012" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6063:6483" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6511:6619" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6647:6756" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6739:6750" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorRandomPointsCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:193" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="1561:1789" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1821:1832" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1841:1847" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/ServiceGeometry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="77">
           <caret line="505" column="0" lean-forward="false" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
           <folding>
-            <element signature="e#18275#18276#0" expanded="true" />
+            <element signature="e#18275#18276#0" expanded="false" />
+            <element signature="e#19794#19795#0" expanded="false" />
+            <element signature="e#19841#19842#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="183" column="37" lean-forward="false" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding>
             <element signature="method#start#0;class#GeometryOperatorsServer#0" expanded="false" />
             <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" expanded="false" />
-            <element signature="method#streamOperations#0;class#GeometryOperatorsService#0;class#GeometryOperatorsServer#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleByteBufferCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromESRIShapeCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="false" signature="146:193" ph="..." />
+            <marker date="1513838274000" expanded="true" signature="474:736" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="766:777" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="855:861" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="890:1179" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1211:1222" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1242:1248" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="1315:6282" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="6391:21576" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="21668:29113" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="29200:33683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorBufferCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="true" signature="843:1339" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="1368:2250" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="2280:2291" ph=" { " />
+            <marker date="1513838274000" expanded="true" signature="2355:2361" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="2393:2404" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="2424:2430" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="2484:2655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorProjectCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="true" signature="504:619" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="649:660" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="724:730" ph=" }" />
+            <marker date="1513838274000" expanded="true" signature="759:1073" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1105:1116" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1136:1142" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorExportToWktCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1513838274000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513838274000" expanded="true" signature="403:635" ph="{...}" />
+            <marker date="1513838274000" expanded="true" signature="662:1081" ph="{...}" />
+            <marker date="1513838274000" expanded="false" signature="1111:1122" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1194:1200" ph=" }" />
+            <marker date="1513838274000" expanded="false" signature="1224:1235" ph=" { " />
+            <marker date="1513838274000" expanded="false" signature="1255:1261" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractMessageLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.16.Final/4f98982516fa71c45187aa56640a9a8f0c78de4f/netty-transport-4.1.16.Final-sources.jar!/io/netty/channel/nio/SelectedSelectionKeySetSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.16.Final/4f98982516fa71c45187aa56640a9a8f0c78de4f/netty-transport-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="752" column="0" lean-forward="false" selection-start-line="752" selection-start-column="0" selection-end-line="752" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/MixedEndianDataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+        <state relative-caret-position="127">
+          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27077#0" expanded="true" />
+            <element signature="e#0#27791#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="method#SpatialReferenceGroup#0;class#SpatialReferenceGroup#0" expanded="false" />
+            <element signature="e#4497#4498#0" expanded="true" />
+            <element signature="e#4542#4543#0" expanded="true" />
+            <element signature="e#4700#4701#0" expanded="true" />
+            <element signature="e#4763#4764#0" expanded="true" />
+            <element signature="e#4821#4822#0" expanded="true" />
+            <element signature="e#4881#4882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="e#5639#5640#0" expanded="true" />
+            <element signature="e#5685#5686#0" expanded="true" />
+            <element signature="e#5716#5717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.7.0/a010bff7f7b404ec7cd4aeb07bbaa89d8ffcaacb/grpc-stub-1.7.0-sources.jar!/io/grpc/stub/ClientCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="393" column="0" lean-forward="false" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.7.0/11ef0857e502a691bf12dae35fc1577a1efb8293/grpc-core-1.7.0-sources.jar!/io/grpc/ForwardingClientCallListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="218" column="27" lean-forward="true" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
+          <folding>
+            <element signature="method#getProjected#0;class#GeometryOperatorsClient#0" expanded="false" />
+            <element signature="e#14677#14678#0" expanded="true" />
+            <element signature="e#14728#14729#0" expanded="true" />
+            <element signature="e#14786#14787#0" expanded="true" />
+            <element signature="e#14840#14841#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
+            <element signature="e#15041#15042#0" expanded="true" />
+            <element signature="e#15490#15491#0" expanded="true" />
+            <element signature="e#15534#15535#0" expanded="true" />
           </folding>
         </state>
       </provider>
