@@ -3,8 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" group="epl-geometry-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" group="epl-geometry-service" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" group="epl-geometry-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_main.iml" group="epl-geometry-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" group="epl-geometry-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/epl-geometry-service_test.iml" group="epl-geometry-service" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       <module fileurl="file://$PROJECT_DIR$/.idea/geometry-service-java.iml" filepath="$PROJECT_DIR$/.idea/geometry-service-java.iml" />
     </modules>
   </component>

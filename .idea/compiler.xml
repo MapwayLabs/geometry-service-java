@@ -2,8 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+<<<<<<< HEAD
       <module name="epl-geometry-service_main" target="1.8" />
       <module name="epl-geometry-service_test" target="1.8" />
+=======
+      <module name="epl-geometry-service_main" target="1.10" />
+      <module name="epl-geometry-service_test" target="1.10" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       <module name="esri-geometry-api_main" target="1.8" />
       <module name="esri-geometry-api_test" target="1.8" />
       <module name="examples_main" target="1.8" />

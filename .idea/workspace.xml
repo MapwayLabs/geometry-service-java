@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" />
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile.alpine" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile.alpine" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" afterDir="false" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +27,10 @@
     <ignored path="$PROJECT_DIR$/../geometry-api-java/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+<<<<<<< HEAD
     <option name="TRACKING_ENABLED" value="true" />
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +70,20 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="epl-geometry-service" type="f1a62948:ProjectNode" />
               </path>
+<<<<<<< HEAD
+=======
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="epl-geometry-service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="epl-geometry-service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </expand>
             <select />
           </tree_state>
@@ -105,26 +132,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="geometry_operators.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2880">
               <caret line="210" column="9" lean-forward="false" selection-start-line="210" selection-start-column="9" selection-end-line="210" selection-end-column="9" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/docker-compose/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="KubernetesNameResolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/kubernetes-lb/geometry-client.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="39" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="GeometryOperatorsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,60 +191,118 @@
                 <folding />
               </first_editor>
               <second_editor />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/Dockerfile_client">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="583" column="5" selection-start-line="583" selection-start-column="5" selection-end-line="583" selection-end-column="5" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="README.md.orig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md.orig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2477">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="847">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#start#0;class#GeometryOperatorsServer#0" />
+                <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" />
+              </folding>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Dockerfile.alpine" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile.alpine">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-end-line="200" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="GeometryOperatorsServerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5100">
               <caret line="380" column="46" lean-forward="false" selection-start-line="380" selection-start-column="39" selection-end-line="380" selection-end-column="46" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="GeometryOperatorsServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -206,6 +311,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
             </state>
           </provider>
         </entry>
@@ -288,12 +403,20 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="/usr/local/Cellar/gradle/4.4.1/libexec" />
+=======
+        <entry key="$PROJECT_DIR$" value="/usr/local/Cellar/gradle/4.9/libexec" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="4.4.1" />
+=======
+        <entry key="$PROJECT_DIR$" value="4.9" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       </map>
     </option>
     <option name="availableProjects">
@@ -533,9 +656,15 @@
       <map>
         <entry key="$PROJECT_DIR$/../JMapProjLib" value="1478219626000" />
         <entry key="$PROJECT_DIR$/../geometry-api-java/build.gradle" value="44447521" />
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="3050456625000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="280927413" />
+=======
+        <entry key="$PROJECT_DIR$" value="4604572876000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4172827503" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="407797137" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3991305596" />
         <entry key="$USER_HOME$/dlade/JMapProjLib" value="1478216927000" />
@@ -557,6 +686,7 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+<<<<<<< HEAD
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.1/508bb7272af61836e76ad0488f0dfc34bf3f398b/protobuf-gradle-plugin-0.8.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.1/bec927395701e09116be606eb1851aa873ee6d50/protobuf-gradle-plugin-0.8.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
@@ -592,6 +722,25 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+=======
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.1/bec927395701e09116be606eb1851aa873ee6d50/protobuf-gradle-plugin-0.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gradle/osdetector-gradle-plugin/1.4.0/a6bfa3b8bc6b15b8df90893876782dab3096b68f/osdetector-gradle-plugin-1.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/kr.motd.maven/os-maven-plugin/1.4.0.Final/fb2ecdce79f677ee32680bf825c26de480fe46b/os-maven-plugin-1.4.0.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.2.1/305cea4e9a89b12c08008fea079fcea2dda34eca/maven-plugin-api-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.1/328a3c5cfaf9b2832e6e1d21c76fcefe01e01fde/maven-model-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.2.1/227e0c0d3b9b25dd9fce0a74b88ec212026a0fe2/maven-artifact-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.0.0.M5/8818cc5a4d2afde2fbc87c2a78cf1ebf5719a869/org.eclipse.sisu.plexus-0.0.0.M5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.enterprise/cdi-api/1.0/44c453f60909dfc223552ace63e05c694215156b/cdi-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.sisu/sisu-guice/3.1.0/97c87d15d749c86b2be1b9809b28321a1d926c7f/sisu-guice-3.1.0-no_aop.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.0.0.M5/4f6bda3f528c60a12e70db2e7a3feee539dcc8cd/org.eclipse.sisu.inject-0.0.0.M5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.4/ef38ff5c25f83a4a02fcd9843d85f3e47012873e/plexus-classworlds-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
                           </list>
                         </option>
@@ -604,6 +753,7 @@
               <option name="name" value="epl-geometry-service" />
               <option name="projectBuildClasspath">
                 <list>
+<<<<<<< HEAD
                   <option value="/usr/local/opt/gradle/libexec/lib/gradle-core-api-4.4.1.jar" />
                   <option value="/usr/local/opt/gradle/libexec/lib/gradle-persistent-cache-4.4.1.jar" />
                   <option value="/usr/local/opt/gradle/libexec/lib/gradle-model-core-4.4.1.jar" />
@@ -680,6 +830,84 @@
                   <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-scala-4.4.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+=======
+                  <option value="/usr/local/opt/gradle/libexec/lib/ant-1.9.11.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/ant-launcher-1.9.11.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-base-services-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-build-cache-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-build-option-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-cli-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-core-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-core-api-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-docs-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-launcher-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-logging-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-messaging-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-model-core-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-native-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-process-services-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-resources-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-wrapper-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/groovy-all-2.4.12.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/ivy-2.2.0.jar" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -696,6 +924,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/io/grpc/examples/helloworld/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/grpc/examples/helloworld/HelloWorldClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/grpc/examples/helloworld/HelloWorldServerTest.java" />
+        <option value="$PROJECT_DIR$/temp/route_guide.proto" />
+        <option value="$PROJECT_DIR$/temp/routeguide/RouteGuideClient.java" />
+        <option value="$PROJECT_DIR$/build/generated/source/proto/main/java/com/fogmodel/service/geometry/RouteSummary.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/fogmodel/service/geometry/route_guide_db.json" />
+        <option value="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/fogmodel/service/geometry/GeometryOperatorsGrpc.java" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         <option value="$PROJECT_DIR$/geometryclientpython/test1.py" />
         <option value="$PROJECT_DIR$/build/install/geometry-service/bin/geometry-operators-server" />
         <option value="$PROJECT_DIR$/geometry-client-python/geometry_client/geometry_operators_pb2.py" />
@@ -711,22 +950,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fogmodel/service/geometry/GeometryOperatorsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java.orig" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/settings.gradle" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile_client" />
         <option value="$PROJECT_DIR$/examples/docker-compose/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolverProvider.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/examples/kubernetes-lb/geometry-client.yaml" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         <option value="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/epl/service/geometry/GeometryOperatorsGrpc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileGeometryCursor.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/examples/Dockerfile_client" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/build/resources/main/geometry_operators.proto" />
         <option value="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" />
         <option value="$PROJECT_DIR$/examples/kubernetes-lb/geometry-server.yaml" />
         <option value="$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml" />
+=======
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/build/resources/main/geometry_operators.proto" />
+        <option value="$PROJECT_DIR$/examples/kubernetes-lb/geometry-server.yaml" />
+        <option value="$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/MixedEndianDataInputStream.java" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/BinaryStringIterable.java" />
         <option value="$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorBufferCursor.class" />
         <option value="$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/EnclosingCircler.class" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../geometry-api-java/src/main/java/com/esri/core/geometry/OperatorCutCursor.java" />
@@ -747,6 +1004,16 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/Dockerfile.alpine" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       </list>
     </option>
   </component>
@@ -778,6 +1045,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
+<<<<<<< HEAD
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
@@ -795,20 +1063,38 @@
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+=======
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+=======
+              <item name="geometry-service-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geometry-service-java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -840,19 +1126,30 @@
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+=======
+              <item name="geometry-service-java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+=======
+              <item name="geometry-service-java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="epl-geometry-service" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="geometry-service-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+=======
+              <item name="geometry-service-java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -862,7 +1159,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -898,6 +1198,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in epl-geometry-service">
+<<<<<<< HEAD
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1213,6 +1514,8 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -1264,6 +1567,7 @@
       </Profilers>
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="ArquillianTestNG" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1297,6 +1601,8 @@
       <listeners />
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -1308,6 +1614,7 @@
       <envs />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -1330,6 +1637,8 @@
       <envs />
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1345,6 +1654,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
+<<<<<<< HEAD
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
@@ -1462,6 +1772,11 @@
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
       <method />
+=======
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
@@ -1511,12 +1826,15 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1542,6 +1860,7 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -1549,6 +1868,8 @@
       <envs />
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1562,12 +1883,15 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1602,6 +1926,238 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug Geometry Operator Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsClient" />
+      <module name="epl-geometry-service_main" />
+      <option name="PROGRAM_PARAMETERS" value="localhost $USER_HOME$/Downloads/wrs2_asc_desc/wrs2_asc_desc.shp" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug Java Geometry Service" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServer" />
+      <module name="epl-geometry-service_main" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All in epl-geometry-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epl-geometry-service_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeometryOperatorsServerTest.testCrazyNesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epl-geometry-service_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epl.service.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epl.service.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServerTest" />
+      <option name="METHOD_NAME" value="testCrazyNesting" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeometryOperatorsServerTest.testCrazyNesting2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epl-geometry-service_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epl.service.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epl.service.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServerTest" />
+      <option name="METHOD_NAME" value="testCrazyNesting2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeometryOperatorsServerTest.testProjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epl-geometry-service_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epl.service.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epl.service.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServerTest" />
+      <option name="METHOD_NAME" value="testProjection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeometryOperatorsServerTest.testUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epl-geometry-service_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epl.service.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epl.service.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.epl.service.geometry.GeometryOperatorsServerTest" />
+      <option name="METHOD_NAME" value="testUnion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea  -Djava.library.path=/usr/local/lib/" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="examples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JettyConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testClient" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometryclientpython" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epl-geometry-service" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometryclientpython/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1609,6 +2165,7 @@
       <tasks />
       <arguments />
       <envs />
+<<<<<<< HEAD
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Debug Java Geometry Service" />
@@ -1632,6 +2189,29 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+=======
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Debug Java Geometry Service" />
+      <item itemvalue="Application.Debug Geometry Operator Client" />
+      <item itemvalue="JUnit.All in epl-geometry-service" />
+      <item itemvalue="JUnit.GeometryOperatorsServerTest.testUnion" />
+      <item itemvalue="JUnit.GeometryOperatorsServerTest.testProjection" />
+      <item itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting" />
+      <item itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in epl-geometry-service" />
+        <item itemvalue="JUnit.GeometryOperatorsServerTest.testUnion" />
+        <item itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting2" />
+        <item itemvalue="JUnit.GeometryOperatorsServerTest.testCrazyNesting" />
+        <item itemvalue="JUnit.GeometryOperatorsServerTest.testProjection" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1732,6 +2312,7 @@
       <workItem from="1519343096714" duration="2550000" />
       <workItem from="1519430751275" duration="602000" />
       <workItem from="1519767247699" duration="14000" />
+<<<<<<< HEAD
       <workItem from="1519787458911" duration="9378000" />
       <workItem from="1519868556890" duration="628000" />
       <workItem from="1520128630768" duration="11015000" />
@@ -1764,10 +2345,20 @@
       <workItem from="1534348139561" duration="16476000" />
       <workItem from="1534612080193" duration="11124000" />
       <workItem from="1534864894614" duration="1150000" />
+=======
+      <workItem from="1519787458911" duration="1942000" />
+      <workItem from="1534885267497" duration="367000" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+=======
+    <history-entry file="All_in_epl-geometry-service - 2017.12.14 at 17h 12m 08s.xml">
+      <configuration name="All in epl-geometry-service" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <history-entry file="All_in_epl-geometry-service - 2017.12.14 at 17h 18m 12s.xml">
       <configuration name="All in epl-geometry-service" configurationId="JUnit" />
     </history-entry>
@@ -1783,12 +2374,15 @@
     <history-entry file="All_in_epl-geometry-service - 2018.02.28 at 10h 25m 57s.xml">
       <configuration name="All in epl-geometry-service" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="All_in_epl-geometry-service - 2018.08.21 at 14h 04m 00s.xml">
       <configuration name="All in epl-geometry-service" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_epl-geometry-service - 2018.08.21 at 14h 10m 24s.xml">
       <configuration name="All in epl-geometry-service" configurationId="JUnit" />
     </history-entry>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <history-entry file="GeometryOperatorsServerTest_testUnion - 2017.12.14 at 16h 47m 39s.xml">
       <configuration name="GeometryOperatorsServerTest.testUnion" configurationId="JUnit" />
     </history-entry>
@@ -1798,6 +2392,7 @@
     <history-entry file="GeometryOperatorsServerTest_testUnion - 2017.12.14 at 16h 56m 10s.xml">
       <configuration name="GeometryOperatorsServerTest.testUnion" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="521442000" />
@@ -1916,6 +2511,106 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+=======
+    <history-entry file="All_in_epl-geometry-service - 2018.08.21 at 14h 04m 00s.xml">
+      <configuration name="All in epl-geometry-service" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="521319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="104" y="50" width="1782" height="1265" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22643678" />
+      <window_info id="Structure" order="1" weight="0.24972005" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48931468" weight="0.32769045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47271386" visible="true" weight="0.12361466" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.67784876" weight="0.41560102" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Debug Logs" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.59144545" weight="0.32352942" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Salesforce" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6539548" weight="0.2975277" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.3460452" side_tool="true" weight="0.27534685" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.48081842" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" weight="0.69415534" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.28218392" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Properties" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3583691" />
+      <window_info anchor="right" id="CDI" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" id="Bean Validation" order="14" />
+      <window_info anchor="right" id="Data View" order="15" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24031563" />
+      <window_info id="Structure" order="1" weight="0.24972005" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48931468" weight="0.3285594" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47271386" weight="0.57289004" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.67784876" weight="0.4579664" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Debug Logs" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.59144545" weight="0.32666132" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Salesforce" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6539548" weight="0.4028133" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.3460452" side_tool="true" weight="0.27534685" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" weight="0.69415534" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.2826399" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Properties" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3583691" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" id="Data View" order="14" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1931,6 +2626,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1957,6 +2653,8 @@
       </map>
     </option>
   </component>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -2248,7 +2946,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+<<<<<<< HEAD
     <watches-manager />
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -2274,6 +2975,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -2293,110 +2995,172 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/Internal.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/LazyStringArrayList.java" />
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleStringCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
+<<<<<<< HEAD
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+=======
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorFactoryLocal.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
+<<<<<<< HEAD
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWkt.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
+<<<<<<< HEAD
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+=======
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/AttributeStreamOfInt32.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
+<<<<<<< HEAD
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/WktParser.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
+<<<<<<< HEAD
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+=======
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWktLocal.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+<<<<<<< HEAD
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromWktCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
+<<<<<<< HEAD
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+=======
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SpatialReference.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
+<<<<<<< HEAD
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Polygon.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
+<<<<<<< HEAD
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/Envelope2D.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
+<<<<<<< HEAD
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+=======
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/RandomPointMaker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
+<<<<<<< HEAD
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+=======
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/epl/service/geometry/OperatorRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1201">
+<<<<<<< HEAD
           <caret line="842" column="0" lean-forward="false" selection-start-line="842" selection-start-column="0" selection-end-line="842" selection-end-column="0" />
+=======
+          <caret line="842" selection-start-line="842" selection-end-line="842" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/GeometryCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
+<<<<<<< HEAD
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+=======
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SpatialReferenceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
+<<<<<<< HEAD
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+=======
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorRandomPointsCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
+<<<<<<< HEAD
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+=======
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
@@ -2404,35 +3168,55 @@
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/SimpleByteBufferCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
+<<<<<<< HEAD
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+=======
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorImportFromESRIShapeCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
+<<<<<<< HEAD
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+=======
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorBufferCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
+<<<<<<< HEAD
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+=======
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorProjectCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
+<<<<<<< HEAD
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../geometry-api-java/build/libs/epl-geometry-api-2.0.0.jar!/com/esri/core/geometry/OperatorExportToWktCursor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
+<<<<<<< HEAD
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+=======
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
@@ -2447,9 +3231,25 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/io/DataInputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="247">
           <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="4500">
+          <caret line="350" selection-start-line="350" selection-end-line="350" />
+          <folding>
+            <element signature="e#0#27791#0" />
+            <element signature="imports" />
+            <element signature="method#SpatialReferenceGroup#0;class#SpatialReferenceGroup#0" />
+            <element signature="e#4497#4498#0" />
+            <element signature="e#4542#4543#0" />
+            <element signature="e#4700#4701#0" />
+            <element signature="e#4763#4764#0" />
+            <element signature="e#4821#4822#0" />
+            <element signature="e#4881#4882#0" />
+          </folding>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
@@ -2457,6 +3257,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/MixedEndianDataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
+<<<<<<< HEAD
           <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
@@ -2473,46 +3274,112 @@
         <state relative-caret-position="105">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
+=======
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/docker-compose/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="156" column="51" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/kubernetes-lb/geometry-server.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/KubernetesNameResolverProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
+<<<<<<< HEAD
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+=======
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2880">
           <caret line="210" column="9" lean-forward="false" selection-start-line="210" selection-start-column="9" selection-end-line="210" selection-end-column="9" />
           <folding />
+=======
+        <state relative-caret-position="315">
+          <caret line="21" selection-end-line="200" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
+<<<<<<< HEAD
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+=======
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3390">
           <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="150">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#GeometryOperatorsServer#0" />
+            <element signature="method#blockUntilShutdown#0;class#GeometryOperatorsServer#0" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
@@ -2520,7 +3387,11 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
+<<<<<<< HEAD
             <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+=======
+            <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
           </first_editor>
           <second_editor />
         </state>
@@ -2529,6 +3400,7 @@
     <entry file="file://$PROJECT_DIR$/examples/kubernetes-lb/geometry-client.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
+<<<<<<< HEAD
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
@@ -2538,12 +3410,26 @@
         <state relative-caret-position="5100">
           <caret line="380" column="46" lean-forward="false" selection-start-line="380" selection-start-column="39" selection-end-line="380" selection-end-column="46" />
           <folding />
+=======
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Dockerfile_client">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="583" column="5" selection-start-line="583" selection-start-column="5" selection-end-line="583" selection-end-column="5" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
+<<<<<<< HEAD
           <caret line="112" column="5" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
         </state>
       </provider>
@@ -2572,6 +3458,9 @@
             <folding />
           </first_editor>
           <second_editor />
+=======
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+>>>>>>> 2e175b1e8af2846c3f123811cad86c97815c77b0
         </state>
       </provider>
     </entry>
