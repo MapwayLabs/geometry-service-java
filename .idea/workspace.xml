@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91d1346-c1f5-410f-b823-3ef5d10b1c82" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry-api-java/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile" />
       <change beforePath="$PROJECT_DIR$/../geometry-api-java/Dockerfile.alpine" afterPath="$PROJECT_DIR$/../geometry-api-java/Dockerfile.alpine" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsClientTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epl/service/geometry/GeometryOperatorsServerTest.java" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,18 +161,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geometry_operators.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/geometry_operators.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GeometryOperatorsClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -181,15 +171,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="470">
+                <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -783,7 +783,6 @@
         <option value="$PROJECT_DIR$/examples/kubernetes-lb/geometry-client.yaml" />
         <option value="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/epl/service/geometry/GeometryOperatorsGrpc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileGeometryCursor.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/examples/Dockerfile_client" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/build/resources/main/geometry_operators.proto" />
@@ -800,8 +799,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/ShapefileByteReader.java" />
         <option value="$PROJECT_DIR$/src/main/proto/geometry_operators.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsClient.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/epl/service/geometry/GeometryOperatorsServer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1751,7 +1751,7 @@
       <workItem from="1519430751275" duration="602000" />
       <workItem from="1519767247699" duration="14000" />
       <workItem from="1519787458911" duration="1942000" />
-      <workItem from="1534887423113" duration="198000" />
+      <workItem from="1534887423113" duration="483000" />
     </task>
     <servers />
   </component>
@@ -1788,10 +1788,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521150000" />
+    <option name="totallyTimeSpent" value="521435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="50" width="1303" height="850" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1802,10 +1803,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41456953" sideWeight="0.47271386" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27019867" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29403973" sideWeight="0.6539548" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31245044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31245044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -2211,13 +2212,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/AbstractProtobufList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar!/com/google/protobuf/Internal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -2592,12 +2586,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="470">
+            <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
